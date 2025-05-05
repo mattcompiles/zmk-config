@@ -34,6 +34,8 @@
 &kp LEFT_SHIFT  &kp Z  &kp X  &kp C        &kp V            &kp B          &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
                               &lt 1 RIGHT  &lt 3 BACKSPACE  &lt 3 SPACE    &kp RET  &none  &none
             >;
+
+            label = "Base";
         };
 
         navigation_layer {
@@ -43,7 +45,7 @@
             // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Lower";
+            display-name = "Nav";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LG(LEFT)  &kp LA(LEFT)  &kp LA(RIGHT)  &kp LG(RIGHT)  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &kp LEFT      &kp DOWN      &kp UP         &kp RIGHT      &trans  &trans
@@ -59,7 +61,7 @@
             // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
-            display-name = "Raise";
+            display-name = "Sym";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AMPERSAND  &kp PLUS   &kp HASH
 &trans  &trans  &trans  &trans  &trans  &trans    &kp CARET        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOLLAR     &kp EQUAL  &kp AT_SIGN
@@ -75,6 +77,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp N1  &kp N2  &kp N3  &trans  &trans
                         &trans  &trans  &trans    &trans  &kp N0  &trans
             >;
+
+            label = "Num";
         };
     };
 };
